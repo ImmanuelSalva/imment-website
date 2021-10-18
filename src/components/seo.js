@@ -25,8 +25,8 @@ const Seo = ({ description = '', lang = 'en', meta = [], title, image }) => {
         lang,
       }}
       title={title}
-      defaultTitle="IMM Entertainment"
-      titleTemplate={defaultTitle ? `%s — IMM Entertainment` : null}
+      defaultTitle="SalvaMedia"
+      titleTemplate={defaultTitle ? `%s — SalvaMedia` : null}
       meta={[
         {
           name: `description`,
